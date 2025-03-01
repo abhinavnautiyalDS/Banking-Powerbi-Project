@@ -41,7 +41,38 @@ We have Two Dataset Banking Dataset 1 and 2
 - **CreditScore**: The credit score of the account holder.
 - **OpeningDate**: The date when the account was opened.
 - **LoanAmount**: The amount of loan associated with the account (if applicable).
-- **AccountHolderDetails**: Details about account holders - 
+- **AccountHolderDetails**: Details about account holders -
+
+
+# **Merging and Data Preprocessing**
+
+- merged the two tables using the AccountNumber column, which is common in both datasets.
+- There were some missing values in columns like AccountHolder and others, which I removed.
+- replaced null values in the Balance column with 0.
+- removed unwanted values such as -999, *^#, and $.
+- split the address details into multiple columns, including Sector, City, and Year of Living.
+
+# **Exploratory Data Analysis**
+
+## **Q1.  Calculate the average account balance for each account type. Which account type has the highest average balance?**
+
+![image](https://github.com/user-attachments/assets/0564c448-be8a-4687-ab3c-e004ca91d6b0)
+
+**Savings Accounts Have the Highest Balance (25.2K)**
+ - It Makes sense,People park their money here for long-term goals, emergency funds, or just to earn some interest. Plus, many banks require a minimum balance, so customers tend to keep more in these accounts.
+   
+**Credit Accounts Hold a Surprisingly High Balance (24.3K)**
+- This could mean customers have high credit limits or use their cards regularly but pay off balances on time. It also suggests responsible credit usage or even customers carrying some revolving debt while managing payments well.
+  
+**Checking Accounts Sit in the Middle (22.2K)**
+
+No surprises here—this is the go-to account for everyday spending, bills, and direct deposits. Since checking accounts usually don’t offer much interest, people don’t keep large sums sitting idle.
+
+**Loan Accounts Have the Lowest Balance (21.2K)**
+
+Loans shrink over time as people pay them off, which explains the lower balance. It could also mean that most loans in this dataset are on the smaller side or customers are managing their debt well.
+
+
 
 
 

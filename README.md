@@ -1,4 +1,6 @@
 # **Banking Powerbi Project**
+![image](https://github.com/user-attachments/assets/5af619b9-1d6f-4b33-bab8-c927082e398f)
+
 
 Unlocking Financial Insights in Banking Data
 

@@ -66,11 +66,25 @@ We have Two Dataset Banking Dataset 1 and 2
   
 **Checking Accounts Sit in the Middle (22.2K)**
 
-No surprises here—this is the go-to account for everyday spending, bills, and direct deposits. Since checking accounts usually don’t offer much interest, people don’t keep large sums sitting idle.
+- No surprises here—this is the go-to account for everyday spending, bills, and direct deposits. Since checking accounts usually don’t offer much interest, people don’t keep large sums sitting idle.
 
 **Loan Accounts Have the Lowest Balance (21.2K)**
 
-Loans shrink over time as people pay them off, which explains the lower balance. It could also mean that most loans in this dataset are on the smaller side or customers are managing their debt well.
+- Loans shrink over time as people pay them off, which explains the lower balance. It could also mean that most loans in this dataset are on the smaller side or customers are managing their debt well.
+
+## **Q2 Analyze the impact of currency exchange rates on transaction amounts. Convert all transactions to a standard currency for comparison.**
+
+This dataset contains amounts in multiple currencies, so I converted all currencies into a standard one—US dollars—using their respective exchange rates.
+
+![image](https://github.com/user-attachments/assets/935bbb81-fe46-4873-b071-8fe7080e14fe)
+
+- USD Shows a Significant Increase in Converted Amount (4.6M vs. 1.0M)
+The large gap suggests that the exchange rate has a strong impact when converting transactions in USD. A weaker local currency against the USD could be a major factor.
+- GBP Also Shows a Notable Increase (1.6M vs. 0.9M)
+- EUR Remains Almost Unchanged (1.1M in Both Values)
+- JPY Shows No Increase in Converted Amount (0.0M vs. 1.0M)
+
+
 
 
 

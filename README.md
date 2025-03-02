@@ -209,9 +209,56 @@ These customers might be on the verge of improving or worsening their creditwort
 
 ![image](https://github.com/user-attachments/assets/e25fc7a3-bc0e-44a0-aebc-cdb059b2b971)
 
+- **Ideally**
+ In many banking scenarios, one might expect a positive correlation between a customer’s tenure and their account balance. The longer someone banks with an institution, the more opportunities they have to grow their savings, accumulate interest, or deposit larger amounts. Over time, loyal customers might consolidate their finances, leading to increasing balances.
 
+-**What the Data Shows (-0.04)**
+However, our actual data reveals a very weak negative correlation between tenure and balance. A value of -0.04 is so close to zero that it essentially indicates no meaningful relationship. In other words, how long someone has been with the bank doesn’t necessarily predict whether their balance is high or low.
 
+- Possible Reasons for This Discrepancy
+- - **Multiple Bank Relationships:**
+Customers may spread their savings and investments across different banks or platforms, reducing the chance of a growing balance in just one institution.
+- - **Varied Financial Goals:**
+Long-standing customers might have specific reasons for keeping balances low, such as using other investment vehicles (stocks, mutual funds, real estate) instead of a bank account.
 
+## **Q12 Create a measure to rate branches based on transaction volume and value.**
+
+For this, I created a measure called Branch Performance Score using the following formula:
+Branch Performance Score = 0.5 × Transaction Count + 0.5 × Transaction Volume
+
+![image](https://github.com/user-attachments/assets/0234c0fb-0da0-48c7-8177-e486ae598efe)
+
+- **Highest Performing Branches:**
+Branch 479 has the highest performance score (0.777), driven by the highest normalized transaction count (1.00).
+Branch 466 follows closely (0.772), likely due to its high transaction volume.
+
+- **Low Performing Branches:**
+Branches with a low transaction count or low volume have a lower performance score despite contributing significantly in one metric.
+
+## **Q13 Using DAX, develop a risk assessment model based on transaction patterns, account balances, and credit scores.**
+
+A risky transaction could be one that follows these patterns:
+
+- Transaction Patterns: Frequent high-value transactions may indicate risk if high_value_transaction = 1.
+- Account Balances: Lower balances may correlate with higher risk if balance < 1000.
+- Credit Scores: A lower credit score increases the risk if the credit score is Poor or Fair.
+- 
+I have created a calculated column called Credit Risk based on the above conditions and categorized it into Very Low Risk, Low Risk, Medium Risk, and High Risk.
+
+![image](https://github.com/user-attachments/assets/0e2b898f-2ab0-4e4b-8277-f8ede670f365)
+
+- **Count of Accounts by Credit Risk:**
+
+The majority of accounts fall under Very Low Risk.
+Higher-risk categories (Medium and High Risk) have significantly fewer accounts.
+Average Balance by Credit Risk:
+
+- **Very Low Risk accounts have the highest average balance (~25K).**
+As risk increases, the average balance decreases, with High Risk accounts having the lowest balances.
+
+- **Average Credit Score by Credit Risk:**
+Interestingly, Low Risk accounts have the highest average credit score.
+High Risk accounts have the lowest credit scores, confirming that lower credit scores correlate with higher risk.
 
 
 

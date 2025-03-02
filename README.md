@@ -97,6 +97,19 @@ A slight drop from the top branch but still a key location for banking activity.
 
 This indicates a uniform distribution of transaction activity across multiple branches, possibly due to standard service levels or customer distribution.
 
+## **Q4 Using DAX, analyze the correlation between interest rates and account balances. Does a higher interest rate correlate with higher balances?**
+
+I have plotted a scatter plot between interest rate and account balance, and I have also calculated the correlation coefficient between them
+![image](https://github.com/user-attachments/assets/d931ee55-a804-4d42-ac09-ed984ab1d739)
+
+Ideallly there should be positive corelation between interset rate and balance, bcz higher interest rate encourage customer to deposite more money leading to higher 
+account balance but here the correaltion coefficient is almost zero which shows zero or no relation between them.
+
+there can be multiple reasons for it.
+1. the average interset rate in this dataset is 2.67% , if the interest rates offered are generally low, the additional earnings from larger deposits may not be significant enough to motivate customers to save more.
+
+2. because of this low interset rate customer may are choosing diffrent alternative they might invest on mutual funds or stock which could return them more .
+
 
 
 

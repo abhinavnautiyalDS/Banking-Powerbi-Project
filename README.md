@@ -263,7 +263,7 @@ High Risk accounts have the lowest credit scores, confirming that lower credit s
 
 # **Dashboard**
 
-### ** Dashboard 1**
+### **Dashboard 1**
 
 ![Time series](https://github.com/user-attachments/assets/2081c348-1b4f-4b6f-a092-41f3c7a3cd8a)
 
@@ -402,6 +402,15 @@ This project involved an in-depth analysis of customer transactions, loan data, 
   
 **Overall Impact:**
 This project successfully identified key financial trends that can assist businesses, banks, and financial institutions in making data-driven decisions. The insights can be used to optimize lending strategies, improve transaction security, and enhance customer engagement.
+
+
+# **THANKYOU FOR READING**
+
+For a detailed breakdown of the data and analysis, refer to the our Power BI project link.
+Final version : https://drive.google.com/file/d/1vhuChZe3HhASJppsYItnTK4Ym1w3ThpQ/view?usp=sharing
+Draft  : https://drive.google.com/file/d/1-r3X4XfjgLp-FAJjOZPhZY2gxg_WYjFi/view?usp=sharing
+
+
 
 
 

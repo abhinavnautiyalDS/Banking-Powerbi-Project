@@ -407,8 +407,8 @@ This project successfully identified key financial trends that can assist busine
 # **THANKYOU FOR READING**
 
 For a detailed breakdown of the data and analysis, refer to the our Power BI project link.
-Final version : https://drive.google.com/file/d/1vhuChZe3HhASJppsYItnTK4Ym1w3ThpQ/view?usp=sharing
-Draft  : https://drive.google.com/file/d/1-r3X4XfjgLp-FAJjOZPhZY2gxg_WYjFi/view?usp=sharing
+- Final version : https://drive.google.com/file/d/1vhuChZe3HhASJppsYItnTK4Ym1w3ThpQ/view?usp=sharing
+- Draft  : https://drive.google.com/file/d/1-r3X4XfjgLp-FAJjOZPhZY2gxg_WYjFi/view?usp=sharing
 
 
 

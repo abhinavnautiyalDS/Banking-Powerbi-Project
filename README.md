@@ -151,6 +151,66 @@ Another reason could be that some industries slow down during colder months, red
 The earliest account opening date in the table is August 2020, with customers consistently transacting up to mid-2025.
 Loyal customers such as Elizabeth Anderson, Jessica Taylor, and Robert Miller have maintained active relationships with the bank for the longest period.
 
+## **Q8 Identify high-value transactions and analyze their characteristics. What constitutes a high-value transaction in your analysis?**
+
+High-value customers are those who spend more than a certain threshold. In my case, I have set this threshold at 10,000, as it represents the 80th percentile value.
+![image](https://github.com/user-attachments/assets/2f9b2eaa-2246-49c6-baca-cd50b73f46a8)
+
+1.  **High-Value Customers by Sector**
+Education and Healthcare have the most high-value customers
+This suggests that professionals from these industries earn well and engage actively with financial products.
+Finance has the lowest count despite being a money-centric field.
+This could indicate that finance professionals prefer diversified investments outside traditional banking.
+2. **High-Value Customers by Account Type**
+Savings and Checking accounts dominate 
+High-value customers prefer liquidity and easy access to funds rather than locking them in long-term investments.
+Loan-based customers are the lowest
+This suggests that high-value customers rely less on borrowing and more on managing their own capital.
+3. **High-Value Customers by Payment Type**
+Withdrawals, Transfers, and Payments are equally high 🔄
+High-value customers are financially active and regularly move money across accounts.
+Deposits are slightly lower, but still significant
+This means these customers continue to put money into the bank, but their spending/transactions are equally high.
+
+
+## **Q9 Investigate if there are patterns in the times of day when different types of transactions are made.**
+![image](https://github.com/user-attachments/assets/72922b97-ddfc-4699-8b92-86fc06dbc628)
+- Transaction Volume Increases Throughout the Day:
+Transactions are lowest during Late Night (171) and increase steadily through the Evening (193) and Afternoon (215), reaching their peak in the Morning (222).
+This suggests that customers are more active in making transactions during the Morning and Afternoon than at night.
+
+- Transaction Type Patterns:
+Deposits are highest in the Morning (59) and lowest during Late Night (37).
+Payments remain relatively stable throughout the day, with slight variations.
+Transfers peak in the Morning (60) and Afternoon (57), indicating that fund movements are higher during business hours.
+Withdrawals increase as the day progresses, peaking in the Morning (54) and Afternoon (49).
+
+- Business Hours Drive Transactions:
+Since transactions peak in the Morning and Afternoon, this suggests that banking and financial activities are primarily driven by business hours and customer convenience.
+The lower transaction count at Late Night aligns with fewer banking operations and reduced customer activity.
+
+## **Q10 Analyze the distribution of credit scores among account holders. What insights can you gather?**
+
+![image](https://github.com/user-attachments/assets/396df908-6208-4108-8c04-2f3226702638)
+
+- Majority of Account Holders Have a Poor Credit Score:
+The largest segment (407 account holders) falls under the "Poor" credit score category.
+This suggests that a significant proportion of customers may have financial difficulties, high debt levels, or a history of missed payments.
+
+- Smaller Proportion of High Credit Score Customers:
+Only 82 account holders have an "Excellent" credit score, and 86 have a "Very Good" score.
+This indicates that financially stable and highly creditworthy customers are a minority.
+
+- Fair to Good Credit Score Holders Are Relatively Balanced:
+Fair (120) and Good (106) credit score holders are almost equal in number.
+These customers might be on the verge of improving or worsening their creditworthiness depending on their financial behavior.
+
+## **Q11 Explore if there's a correlation between the age of an account (time since opening) and its current balance.**
+
+![image](https://github.com/user-attachments/assets/e25fc7a3-bc0e-44a0-aebc-cdb059b2b971)
+
+
+
 
 
 

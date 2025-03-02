@@ -110,6 +110,23 @@ there can be multiple reasons for it.
 
 2. because of this low interset rate customer may are choosing diffrent alternative they might invest on mutual funds or stock which could return them more .
 
+## **Q5 Examine the relationship between loan amount and credit score. Do higher credit scores correlate with larger loan amounts?**
+![image](https://github.com/user-attachments/assets/923e4050-01d4-42d2-befd-91d1d11c0dc1)
+
+Ideally there should be some kind of relationship between credit score and loan amount 
+
+- Higher Credit Score → Higher Loan Balance (Linear Relationship)
+A person with a high credit score is considered low risk by lenders.
+They are more likely to qualify for larger loans with lower interest rates.
+This creates a positive correlation between credit score and loan balance.
+
+- Lower Credit Score → Lower Loan Balance (Higher Interest Rate)
+A low credit score means the borrower is high risk.
+Lenders reduce the loan amount to minimise risk.
+Even if they get a loan, it comes with a higher interest rate, making it harder to borrow more.
+
+But here  there is almost zero or no correlation between credit score and loan balance.
+this means here loan amount may influenced by other factors like income level or there could be diffrent policies accross banks
 
 
 

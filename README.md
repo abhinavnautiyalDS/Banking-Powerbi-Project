@@ -85,6 +85,23 @@ The large gap suggests that the exchange rate has a strong impact when convertin
 - EUR Remains Almost Unchanged (1.1M in Both Values)
 - JPY Shows No Increase in Converted Amount (0.0M vs. 1.0M)
 
+## **Q3 Investigate which branch  has the highest number of transactions.**
+
+![image](https://github.com/user-attachments/assets/dce64728-df87-4540-b76c-f1a29b3cda6f)
+
+- Branch 479 Leads in Transactions
+  This branch has the highest number of transactions, suggesting it could be in a high-traffic area or serve a large customer base.
+- Branch 232 Follows Closely
+A slight drop from the top branch but still a key location for banking activity.
+- Remaining 8 Branches Have an Equal Number of Transactions (5 Transactions Each)
+
+This indicates a uniform distribution of transaction activity across multiple branches, possibly due to standard service levels or customer distribution.
+
+
+
+
+
+
 
 
 

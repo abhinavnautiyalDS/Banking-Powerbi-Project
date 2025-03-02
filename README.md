@@ -267,29 +267,31 @@ High Risk accounts have the lowest credit scores, confirming that lower credit s
 
 ![Time series](https://github.com/user-attachments/assets/2081c348-1b4f-4b6f-a092-41f3c7a3cd8a)
 
-1. Account Opening Trends (Top Left)
-- **Insight:** Account openings peaked in March (37 accounts) and July (32 accounts) but declined significantly in the later months (November & December at 13).
-- **Possible Reasons:**
-- **Seasonality:** Certain months may attract more new customers due to marketing campaigns, promotions, or financial cycles.
-- **Customer Behavior:** The decline in account openings towards the year-end could be due to reduced financial activity.
-2. Monthly Transactions by Account Type (Top Right)
-- **Insight:** Checking & Credit accounts have the highest transaction volume, followed by Loan and Savings.
+1. **Account Opening Trends (Top Left)**
+- Insight: Account openings peaked in March (37 accounts) and July (32 accounts) but declined significantly in the later months (November & December at 13).
+- Possible Reasons:
+- Seasonality: Certain months may attract more new customers due to marketing campaigns, promotions, or financial cycles.
+- Customer Behavior: The decline in account openings towards the year-end could be due to reduced financial activity.
+  
+2. **Monthly Transactions by Account Type (Top Right)**
+- Insight: Checking & Credit accounts have the highest transaction volume, followed by Loan and Savings.
 Transaction activity fluctuates across months, with some peaks in March and July.
-- **Possible Reasons:**
+- Possible Reasons:
 Checking & Credit are frequently used for daily transactions, whereas Loan & Savings accounts may see fewer movements.
 Certain months might involve higher spending (e.g., summer vacation, back-to-school season).
-3. Transaction Patterns Over Time (Bottom Left)
-- **Insight:** The overall transaction volume remains stable over time, with occasional slight fluctuations.
+
+3. **Transaction Patterns Over Time (Bottom Left)**
+- Insight: The overall transaction volume remains stable over time, with occasional slight fluctuations.
    A sudden drop in July 2024 might indicate a reporting delay, a seasonal trend, or policy changes.
-- **Possible Reasons:**
+- Possible Reasons:
 Economic conditions could influence spending behavior.
 System updates or reporting adjustments may cause a temporary drop.
 
-4. Sum of Amount (USD) and Count of Transactions by Month (Bottom Right)
-- **Insight:**
+4. **Sum of Amount (USD) and Count of Transactions by Month (Bottom Right)**
+- Insight:
 Transaction amounts were highest between March–July, then declined from August onward.
 Transaction count follows a similar downward trend.
-- **Possible Reasons:**
+- Possible Reasons:
 Customers might spend more in the first half of the year, influenced by tax refunds, bonuses, or planned purchases.
 The decline after July suggests seasonal changes in spending habits or lower financial activity post-holiday.
 
@@ -297,37 +299,109 @@ The decline after July suggests seasonal changes in spending habits or lower fin
 ### **Dashboard2**
 ![loan data dashboard](https://github.com/user-attachments/assets/84cbf51b-cc22-494e-ae08-468179216d09)
 
-1. Overall Loan and Credit Metrics
+1. **Overall Loan and Credit Metrics**
 - Total Loan Amount: 8.55M
 - Total Credit Score Sum: 183K
 - Credit Score Measure: 849 (Likely the highest credit score recorded)
 
-2. Average Loan Amount by Account Type (Bottom Left)
-- **Insight:**
+2. **Average Loan Amount by Account Type (Bottom Left)**
+- Insight:
 Savings and Credit accounts have the highest average loan amounts.
 Checking and Loan accounts have lower average loan amounts.
-- **Possible Reasons:**
+- Possible Reasons:
 Savings accounts may be linked to secured loans (higher amounts).
 Credit accounts might be associated with credit-based borrowing.
 
-3. Credit Score vs. Loan Amount (Middle Bottom)
-- **Insight:**
+3. **Credit Score vs. Loan Amount (Middle Bottom)**
+- Insight:
 Loan amounts vary widely across different credit scores.
 Borrowers with higher credit scores tend to receive higher loan amounts.
 
-- **Possible Reasons:**
+- Possible Reasons:
 Lenders trust high credit score individuals, leading to higher approved loan amounts.
 Lower credit scores may limit borrowing capacity.
 
-4.  Loan Distribution by Interest Rate (Bottom Right)
+4.  **Loan Distribution by Interest Rate (Bottom Right)**
 
-- **Insight:**
+- Insight:
 The distribution of interest rates is quite dense, indicating many accounts with varying interest rates.
-- **Possible Reasons:**
+- Possible Reasons:
 Loans might be offered at customized rates based on creditworthiness and risk factors.
 Lower interest rates may be offered to high credit score individuals, while higher risk borrowers receive higher rates.
 
+### **Dashboard3**
 
+
+![transection and acount date dashboard](https://github.com/user-attachments/assets/c1cf8809-c327-4807-a1e9-1dab31c89b31)
+
+1. **Distribution of Transaction Types (Pie Chart - Top Left)**
+
+- Transfers (24.73%) and Payments (22.94%) are the most common transaction types.
+- Deposits (23.84%) are also significant.
+- Withdrawals (22.4%) make up a smaller portion.
+- Unknown transactions (6.09%) exist but are relatively low.
+
+- Possible Reasons:
+
+Customers rely heavily on transfers and payments, suggesting frequent financial activity.
+The high deposit percentage indicates substantial inflows into accounts.
+Unknown transactions could be system errors, unclassified transactions, or pending verifications.
+
+2. **Yearly Trend in Transaction Amounts (Line Chart - Top Right)**
+   
+- Observation:
+Transaction amounts have declined across all transaction types from 2023 to 2024.
+Deposits, Payments, and Transfers show similar downward trends.
+Unknown transactions remain consistently low.
+
+- Possible Reasons:
+
+Market slowdown, economic changes, or lower customer activity.
+A possible shift toward alternative banking or investment options.
+Banking policy changes affecting transactions.
+
+3. **Transaction Amount by Currency (Stacked Bar Chart - Bottom Left)**
+Observation:
+
+USD, EUR, and GBP dominate the transaction amounts.
+Each currency has a diverse mix of deposits, payments, transfers, and withdrawals.
+
+- Possible Reasons:
+
+USD dominance suggests international transactions.
+
+4. **Credit Score Segmentation (Pie Chart - Bottom Right)**
+- Observation:
+Good credit score users (60.53%) outnumber average score users (39.47%).
+- Possible Reasons:
+A majority of users maintain good credit, possibly due to strict bank policies on creditworthiness.
+Average credit users (39.47%) indicate potential lending opportunities for financial institutions.
+
+
+# **Conclusion**
+
+This project involved an in-depth analysis of customer transactions, loan data, and account trends to uncover patterns in financial behaviors. The dashboards created provided valuable insights into transaction trends, loan distributions, and credit scores, helping to understand the key factors influencing financial decision-making.
+
+- Key Findings:
+1. **Time-Based Analysis:**
+
+- Account openings fluctuated over the year, with a notable decline in later months.
+- Transaction volumes remained stable, but the total transaction amount decreased over time, indicating potential shifts in spending behavior.
+
+2. **Loan Data Analysis:**
+
+- Loan amounts varied across account types, with savings and credit accounts having higher loan amounts.
+- A strong correlation between credit scores and loan amounts was observed, suggesting that customers with higher credit scores tend to secure larger loans.
+- Loan distributions by interest rates appeared consistent, indicating stable lending policies.
+
+3. **Transaction and Account Analysis:**
+   
+- Transfers, deposits, and payments dominated transaction types, highlighting common financial activities.
+- Transactions declined over time, possibly due to economic shifts or evolving banking preferences.
+- A majority of customers had a good credit score, but a significant portion fell into the average category, presenting potential risks and lending opportunities.
+  
+**Overall Impact:**
+This project successfully identified key financial trends that can assist businesses, banks, and financial institutions in making data-driven decisions. The insights can be used to optimize lending strategies, improve transaction security, and enhance customer engagement.
 
 
 

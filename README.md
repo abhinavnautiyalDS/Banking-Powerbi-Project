@@ -261,6 +261,38 @@ Interestingly, Low Risk accounts have the highest average credit score.
 High Risk accounts have the lowest credit scores, confirming that lower credit scores correlate with higher risk.
 
 
+# **Dashboard**
+
+![Time series](https://github.com/user-attachments/assets/2081c348-1b4f-4b6f-a092-41f3c7a3cd8a)
+
+1. Account Opening Trends (Top Left)
+- **Insight:** Account openings peaked in March (37 accounts) and July (32 accounts) but declined significantly in the later months (November & December at 13).
+- **Possible Reasons:**
+- **Seasonality:** Certain months may attract more new customers due to marketing campaigns, promotions, or financial cycles.
+- **Customer Behavior:** The decline in account openings towards the year-end could be due to reduced financial activity.
+2. Monthly Transactions by Account Type (Top Right)
+- **Insight:** Checking & Credit accounts have the highest transaction volume, followed by Loan and Savings.
+Transaction activity fluctuates across months, with some peaks in March and July.
+- **Possible Reasons:**
+Checking & Credit are frequently used for daily transactions, whereas Loan & Savings accounts may see fewer movements.
+Certain months might involve higher spending (e.g., summer vacation, back-to-school season).
+3. Transaction Patterns Over Time (Bottom Left)
+- **Insight:** The overall transaction volume remains stable over time, with occasional slight fluctuations.
+   A sudden drop in July 2024 might indicate a reporting delay, a seasonal trend, or policy changes.
+- **Possible Reasons:**
+Economic conditions could influence spending behavior.
+System updates or reporting adjustments may cause a temporary drop.
+
+4. Sum of Amount (USD) and Count of Transactions by Month (Bottom Right)
+- **Insight:**
+Transaction amounts were highest between March–July, then declined from August onward.
+Transaction count follows a similar downward trend.
+- **Possible Reasons:**
+Customers might spend more in the first half of the year, influenced by tax refunds, bonuses, or planned purchases.
+The decline after July suggests seasonal changes in spending habits or lower financial activity post-holiday.
+
+
+
 
 
 

@@ -128,6 +128,33 @@ Even if they get a loan, it comes with a higher interest rate, making it harder 
 But here  there is almost zero or no correlation between credit score and loan balance.
 this means here loan amount may influenced by other factors like income level or there could be diffrent policies accross banks
 
+## **Q6 Analyze transaction trends over time. Are there any noticeable patterns or seasonal fluctuations?**
+
+![image](https://github.com/user-attachments/assets/94421578-2153-4568-8cbb-0f5631580cc8)
+![image](https://github.com/user-attachments/assets/61f0a023-12f4-4015-ad00-538d30289fa4)
+
+- **Highest Transactions in Summer (2.7M):**
+The peak in summer suggests that people and businesses engage in more financial activity during this season.
+Possible reasons? Vacation spending, travel bookings, summer sales, and financial planning for the second half of the year.
+
+- **Slight Drop in Monsoon Season (2.4M):**
+While transactions remain high, there's a minor decline compared to summer.
+This could be due to less travel and outdoor spending, with people preferring to stay indoors and limit expenses.
+
+- **Lowest Transactions in Winter (2.1M):**
+The decline in winter could be related to post-holiday financial caution, where people and businesses recover from year-end spending and focus on savings.
+Another reason could be that some industries slow down during colder months, reducing overall transaction volumes.
+
+## **Q7 Calculate the duration of each account's relationship with the bank (from 'OpeningDate' to the most recent transaction date). Who are the longest-standing customers?**
+![image](https://github.com/user-attachments/assets/19fbd89d-e399-4510-a07d-32b3a83486f6)
+
+The earliest account opening date in the table is August 2020, with customers consistently transacting up to mid-2025.
+Loyal customers such as Elizabeth Anderson, Jessica Taylor, and Robert Miller have maintained active relationships with the bank for the longest period.
+
+
+
+
+
 
 
 

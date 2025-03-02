@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/5af619b9-1d6f-4b33-bab8-c927082e398f)
+![image](https://github.com/user-attachments/assets/e1930944-db51-42ae-a804-6268bbd13fb4)
+
 
 # **Banking Analytics Using Power BI**
 
